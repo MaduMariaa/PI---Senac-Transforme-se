@@ -1,0 +1,17 @@
+.banner{
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    height: 100vh;
+    
+}
+
+.fotoespaco{
+    background-image: url(../imagens/banho.png);
+    background-size: cover;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+}
+
