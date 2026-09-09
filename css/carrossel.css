@@ -5,19 +5,11 @@
     padding: 20px 0;
 }
 
-.carrossel-track {
-    width: 100%;
-    height: 100%;
-    background-image: url(../imagens/gorgeous-sunset-over-the-sea-free-image.webp);
-    background-repeat: repeat-x;
-    background-size: 270px 220px;
-    animation: rodarFundo 15s linear infinite;
-}
 
-/* .carrossel-track {
+.carrossel-track {
     display: flex;
-    width: max-content; *//*deixa a fileira crescer com o n° de img */
-    /* animation: rodar 15s linear infinite; 
+    width: max-content; /*deixa a fileira crescer com o n° de img */
+    animation: rodar 15s linear infinite; 
     will-change: transform;
     backface-visibility: hidden;
     transform: translateZ(0);
@@ -29,23 +21,14 @@
     object-fit: cover;
     margin: 0 10px;
     border-radius: 8px;
-    flex-shrink: 0; *//* não deixa a imagem encolher */
-/*}*/
+    flex-shrink: 0; /* não deixa a imagem encolher */
+}
 
-/* @keyframes rodar {
+@keyframes rodar {
     from {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-50%); *//*Anda até a metade por conta das duplicadas */
-   /* }
-}*/
-
-@keyframes rodarFundo {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: -270px 0;
+        transform: translateX(-50%); /*Anda até a metade por conta das duplicadas */
     }
 }
