@@ -1,13 +1,22 @@
 .navbar{
     background-color: rgb(245, 245, 245); 
     display: flex;
-    justify-content: space-between;
+
     padding: 12px 24px;
     position: fixed;
     width: 100%;
     align-items: center;
+    height: 80px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
+.navbar nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+}
 .navitem{
     color: rgb(196, 118, 131);
     padding: 12px 24px;
